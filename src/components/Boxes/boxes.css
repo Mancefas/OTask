@@ -1,0 +1,43 @@
+.Box {
+    height: 50px;
+    width: 50px;
+    border: 2px solid gray;
+    cursor: pointer;
+}
+
+.Active {
+    border-color: #1FE1A0;
+}
+
+.BoxesContainer {
+    display: grid;
+    grid-template-areas:
+            "Box3 Box2 Box1"
+            "Box4 . ."
+            "Box5 Box6 Box7";
+    gap: 15px;
+}
+
+.Box1 {
+    grid-area: Box1;
+}
+.Box2 {
+    grid-area: Box2;
+}
+.Box3 {
+    grid-area: Box3;
+}
+.Box4 {
+    grid-area: Box4;
+}
+.Box5 {
+    grid-area: Box5;
+}
+.Box6 {
+    grid-area: Box6;
+}
+.Box7 {
+    grid-area: Box7;
+}
+
+
